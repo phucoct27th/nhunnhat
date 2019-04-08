@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical" >
+
+    <ImageView
+            android:id="@+id/imgContent"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:src="@drawable/truyen_cuoi"
+            android:scaleType="centerInside"
+    />
+
+    <TextView
+            android:id="@+id/txtContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@android:color/holo_blue_dark"
+            android:text="Large Text"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="24dp" />
+
+    <Button android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:background="@android:color/holo_orange_light"
+            android:text="Đọc truyện"
+            android:id="@+id/btn_read_item_topic"
+            android:textStyle="bold|italic"
+            android:textColor="@android:color/white"
+    />
+
+</LinearLayout>

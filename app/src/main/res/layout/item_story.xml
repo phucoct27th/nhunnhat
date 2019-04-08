@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:weightSum="5"
+>
+    <ImageView android:layout_width="0dp"
+               android:layout_weight="1.5"
+               android:layout_height="100dp"
+               android:src="@drawable/truyen_cuoi"
+               android:id="@+id/iv_logo_type_story"
+               android:layout_marginLeft="15dp"
+    />
+
+    <LinearLayout android:layout_width="0dp"
+                  android:layout_height="match_parent"
+                  android:layout_weight="2.5"
+                  android:orientation="vertical"
+                  android:weightSum="2"
+    >
+        <TextView android:layout_width="match_parent"
+                  android:layout_height="0dp"
+                  android:layout_weight="1"
+                  android:id="@+id/txt_title_type_story"
+                  android:text="@string/title_story"
+                  android:paddingLeft="17dp"
+                  android:textSize="15sp"
+                  android:textColor="@android:color/holo_orange_light"
+                  android:textStyle="bold"
+                  android:gravity="center"
+        />
+
+        <ImageView android:layout_width="match_parent"
+                   android:layout_height="0dp"
+                   android:layout_weight="1"
+                   android:paddingLeft="10dp"
+                   android:background="@drawable/star"
+        />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
